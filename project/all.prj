@@ -1,0 +1,48 @@
+memcached=/home/dev/sourcecode/memcached/memcached-1.4.21 CD=/home/dev/sourcecode/memcached/memcached-1.4.21 filter="*.h *.c" {
+ assoc.h
+ cache.h
+ hash.h
+ items.h
+ jenkins_hash.h
+ memcached.h
+ murmur3_hash.h
+ protocol_binary.h
+ sasl_defs.h
+ slabs.h
+ stats.h
+ trace.h
+ util.h
+ assoc.c
+ cache.c
+ daemon.c
+ hash.c
+ items.c
+ jenkins_hash.c
+ memcached.c
+ murmur3_hash.c
+ sasl_defs.c
+ sizes.c
+ slabs.c
+ solaris_priv.c
+ stats.c
+ testapp.c
+ thread.c
+ timedrun.c
+ util.c
+ doc=doc {
+  xml2rfc=xml2rfc {
+  }
+ }
+ m4=m4 {
+ }
+ project=project {
+ }
+ scripts=scripts {
+ }
+ t=t {
+  lib=lib {
+  }
+  sasl=sasl {
+  }
+ }
+}
