@@ -24,7 +24,7 @@
 /* powers-of-N allocation structures */
 
 typedef struct {
-    unsigned int size;      /* sizes of items */
+    unsigned int size;      /* sizes of items (每个item的大小默认开始大小 80字节 = 32 item结构 + 48 item数据) */
     unsigned int perslab;   /* how many items per slab */
 
     void *slots;           /* list of item ptrs */
